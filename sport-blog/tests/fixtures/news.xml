@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Wiadomości testowe</title>
+    <item>
+      <title>Pierwszy tytuł testowy - Portal Jeden</title>
+      <link>https://example.com/a</link>
+      <pubDate>Tue, 24 Nov 2026 17:30:00 GMT</pubDate>
+      <source url="https://example.com">Portal Jeden</source>
+    </item>
+    <item>
+      <title>Drugi tytuł testowy z &lt;znakami&gt; &amp; ampersandem - Portal Dwa</title>
+      <link>https://example.com/b</link>
+      <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+      <source url="https://example.org">Portal Dwa</source>
+    </item>
+    <item>
+      <title>Trzeci tytuł testowy - Portal Trzy</title>
+      <link>https://example.com/c</link>
+      <pubDate>Mon, 23 Nov 2026 21:10:00 GMT</pubDate>
+      <source url="https://example.net">Portal Trzy</source>
+    </item>
+    <item>
+      <title>Link niebezpieczny - Portal Zły</title>
+      <link>javascript:alert(1)</link>
+      <source url="https://example.net">Portal Zły</source>
+    </item>
+  </channel>
+</rss>

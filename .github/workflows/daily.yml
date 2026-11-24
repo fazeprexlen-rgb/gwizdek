@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Pobierz dzisiejsze tematy i zbuduj stronę
-        run: python generate.py
+        run: python sport-blog/generate.py.
 
       - name: Zapisz dane dnia w repozytorium
         run: |
